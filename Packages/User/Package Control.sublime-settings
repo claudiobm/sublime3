@@ -1,0 +1,28 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Clipboard Manager",
+		"Copy Relative Path",
+		"Evernote",
+		"GitGutter",
+		"Keymaps",
+		"orgmode",
+		"Package Control",
+		"PackageResourceViewer",
+		"RailsGoToSpec",
+		"Related Files",
+		"RSpec",
+		"RuboCop",
+		"Ruby Block Converter",
+		"Ruby on Rails snippets",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"Solarized Color Scheme",
+		"Theme - Soda SolarizedDark"
+	]
+}

@@ -1,0 +1,58 @@
+[
+  { "keys": ["ctrl+shift+."], "command": "run_macro_file", "args": {"file": "Packages/User/erb_tag.sublime-macro"} },
+  { "keys": ["ctrl+super+alt+c"], "command": "strip_trailing_whitespace" },
+  { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+  { "keys": ["ctrl+alt+super+d"], "command": "toggle_side_bar" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["ctrl+w"], "command": "expand_selection", "args": {"to": "word"} },
+  { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["ctrl+shift+f"], "command": "reindent"},
+  { "keys": ["ctrl+u"], "command": "upper_case" },
+  { "keys": ["ctrl+shift+u"], "command": "lower_case" },
+  { "keys": ["ctrl+alt+u"], "command": "title_case" },
+  { "keys": ["super+k", "super+o", "super+s"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
+  { "keys": ["super+k", "super+o", "super+r"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "package ResourceViewer: "} },
+  { "keys": ["super+k", "super+o", "super+e"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Evernote: "} },
+  //Clipbord Manager
+  { "keys": ["super+alt+ctrl+v"], "command": "clipboard_manager_choose_and_paste" },
+  { "keys": ["super+ctrl+shift+v", "?"], "command": "clipboard_manager_show_registers" },
+  { "keys": ["super+ctrl+shift+v", "/"], "command": "clipboard_manager_show" },
+  // code fold
+  { "keys": ["ctrl+alt+1"], "command": "fold_by_level", "args": {"level": 1} },
+  { "keys": ["ctrl+alt+2"], "command": "fold_by_level", "args": {"level": 2} },
+  { "keys": ["ctrl+alt+3"], "command": "fold_by_level", "args": {"level": 3} },
+  { "keys": ["ctrl+alt+4"], "command": "fold_by_level", "args": {"level": 4} },
+  { "keys": ["ctrl+alt+5"], "command": "fold_by_level", "args": {"level": 5} },
+  { "keys": ["ctrl+alt+6"], "command": "fold_by_level", "args": {"level": 6} },
+  { "keys": ["ctrl+alt+7"], "command": "fold_by_level", "args": {"level": 7} },
+  { "keys": ["ctrl+alt+8"], "command": "fold_by_level", "args": {"level": 8} },
+  { "keys": ["ctrl+alt+9"], "command": "fold_by_level", "args": {"level": 9} },
+  { "keys": ["ctrl+alt+0"], "command": "unfold_all" },
+
+  //RailsToRspec
+  { "keys": ["ctrl+alt+."], "command": "rails_go_to_spec" },
+
+  //Related Files
+  { "keys": ["shift+super+o"], "command": "related_files"},
+
+  //Evernote
+  { "keys": ["super+k", "super+e", "super+u"], "command": "save_evernote_note" },
+  { "keys": ["super+k", "super+e", "super+n"], "command": "new_evernote_note" },
+  { "keys": ["super+k", "super+e", "super+o"], "command": "open_evernote_note" },
+  { "keys": ["super+k", "super+e", "super+l"], "command": "list_linked_evernote_notes" },
+  { "keys": ["super+k", "super+e", "super+p"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Evernote: "} },
+
+  //Rubocap
+  { "keys": ["super+k", "super+r", "super+s"], "command": "rubocop_check_single_file" },
+  { "keys": ["super+k", "super+r", "super+t"], "command": "rubocop_pause_toggle" },
+  // { "keys": ["super+shift+c"], "command": "rubocop_check_project" },
+  // { "keys": ["ctrl+super+v"], "command": "rubocop_check_file_folder" }
+
+  // Block Convert
+  { "keys": ["super+k", "super+b", "super+c"], "command": "do_end_to_brace" },
+  { "keys": ["super+k", "super+b", "super+o"], "command": "brace_to_do_end" },
+
+  // Copy Relative Path
+  { "keys": ["super+k", "super+c", "super+r"], "command": "copy_relative_path" },
+]
