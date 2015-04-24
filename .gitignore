@@ -1,3 +1,5 @@
 Cache
 Index
 Local
+*.last-run
+**/*cache
