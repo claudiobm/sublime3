@@ -37,7 +37,7 @@
   { "keys": ["shift+super+o"], "command": "related_files"},
 
   //Evernote
-  { "keys": ["super+k", "super+e", "super+u"], "command": "save_evernote_note" },
+  { "keys": ["super+k", "super+e", "super+s"], "command": "save_evernote_note" },
   { "keys": ["super+k", "super+e", "super+n"], "command": "new_evernote_note" },
   { "keys": ["super+k", "super+e", "super+o"], "command": "open_evernote_note" },
   { "keys": ["super+k", "super+e", "super+l"], "command": "list_linked_evernote_notes" },
@@ -46,6 +46,7 @@
   //Rubocap
   { "keys": ["super+k", "super+r", "super+s"], "command": "rubocop_check_single_file" },
   { "keys": ["super+k", "super+r", "super+t"], "command": "rubocop_pause_toggle" },
+  { "keys": ["super+k", "super+r", "super+a"], "command": "rubocop_auto_correct" },
   // { "keys": ["super+shift+c"], "command": "rubocop_check_project" },
   // { "keys": ["ctrl+super+v"], "command": "rubocop_check_file_folder" }
 
