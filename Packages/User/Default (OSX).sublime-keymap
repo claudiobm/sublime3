@@ -12,8 +12,13 @@
   { "keys": ["ctrl+shift+u"], "command": "lower_case" },
   { "keys": ["ctrl+alt+u"], "command": "title_case" },
   { "keys": ["super+k", "super+o", "super+s"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "} },
-  { "keys": ["super+k", "super+o", "super+r"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "package ResourceViewer: "} },
+  { "keys": ["super+k", "super+o", "super+p"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "package ResourceViewer: "} },
   { "keys": ["super+k", "super+o", "super+e"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Evernote: "} },
+
+  //Finds
+  { "keys": ["super+k", "super+f", "super+s"], "command": "show_panel", "args": {"panel": "find_in_files", "where": "spec/, -*.log, -spec/fixtures/cassettes"} },
+  { "keys": ["super+k", "super+f", "super+a"], "command": "show_panel", "args": {"panel": "find_in_files", "where": "app/, lib/, config/, -*.log"} },
+
   //Clipbord Manager
   { "keys": ["super+alt+ctrl+v"], "command": "clipboard_manager_choose_and_paste" },
   { "keys": ["super+ctrl+shift+v", "?"], "command": "clipboard_manager_show_registers" },

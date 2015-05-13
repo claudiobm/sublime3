@@ -17,6 +17,12 @@
 		80,
 		120
 	],
+  "file_exclude_patterns": [
+    "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so",
+    "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store",
+    "*.class", "*.psd", "*.db", "*.sublime-workspace", ".tags",
+    ".tags_sorted_by_file", ".gemtags"
+  ],
 	"tab_size": 2,
 	"theme": "Soda SolarizedDark.sublime-theme",
 	"translate_tabs_to_spaces": true,
