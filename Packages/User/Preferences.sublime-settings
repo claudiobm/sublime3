@@ -5,8 +5,34 @@
 	"detect_indentation": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		".tags",
+		".tags_sorted_by_file",
+		".gemtags"
+	],
 	"font_face": "Monaco",
-	"font_size": 14.0,
+	"font_size": 15.0,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -17,12 +43,6 @@
 		80,
 		120
 	],
-  "file_exclude_patterns": [
-    "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so",
-    "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store",
-    "*.class", "*.psd", "*.db", "*.sublime-workspace", ".tags",
-    ".tags_sorted_by_file", ".gemtags"
-  ],
 	"tab_size": 2,
 	"theme": "Soda SolarizedDark.sublime-theme",
 	"translate_tabs_to_spaces": true,

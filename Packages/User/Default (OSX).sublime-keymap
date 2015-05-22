@@ -41,6 +41,12 @@
   //Related Files
   { "keys": ["shift+super+o"], "command": "related_files"},
 
+  //CTAGS
+  { "keys": ["super+k", "super+t", "super+d"], "command": "navigate_to_definition" },
+  { "keys": ["super+k", "super+t", "super+s"], "command": "search_for_definition" },
+  { "keys": ["super+k", "super+t", "super+j"], "command": "jump_prev" },
+  { "keys": ["super+k", "super+t", "super+r"], "command": "rebuild_tags" },
+
   //Evernote
   { "keys": ["super+k", "super+e", "super+s"], "command": "save_evernote_note" },
   { "keys": ["super+k", "super+e", "super+n"], "command": "new_evernote_note" },
