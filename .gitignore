@@ -3,3 +3,5 @@ Index
 Local
 *.last-run
 **/*cache
+Packages/User/Package\ Control.merged-ca-bundle
+Packages/User/Package\ Control.system-ca-bundle
