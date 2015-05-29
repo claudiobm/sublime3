@@ -75,6 +75,9 @@
 
   //Shell Command
   { "keys": ["super+k", "super+s", "super+o"], "command": "shell_command" },
+  { "keys": ["super+k", "super+s", "super+r"], "command": "shell_command", "args": { "root_dir": true } },
+  { "keys": ["super+k", "super+s", "super+i"], "command": "shell_command", "args": { "root_dir": true, "command": "$SHELL --login -c '${command::Interactive Command}'", "arg_required": true } },
+  { "keys": ["super+k", "super+s", "super+t"], "command": "shell_command", "args": { "command": "$SHELL --login -c 'bundle exec rspec ${file_path}/${file_name}'" } },
   { "keys": ["super+k", "super+s", "super+g"], "command": "shell_command", "args": { "command_prefix": "git", "prompt": "Git Command" } },
   { "keys": ["super+k", "super+s", "super+d"], "command": "shell_command", "args": { "command": "git diff", "syntax": "Diff", "title": "Diff" } },
 ]
