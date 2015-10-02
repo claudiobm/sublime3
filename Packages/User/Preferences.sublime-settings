@@ -38,6 +38,7 @@
 		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",
+	"rubocop_path": "~/.rvm/gems/ruby-2.2.2/bin/rubocop",
 	"rulers":
 	[
 		80,

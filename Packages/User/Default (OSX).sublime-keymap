@@ -73,6 +73,9 @@
   // Copy Relative Path
   { "keys": ["super+k", "super+c", "super+r"], "command": "copy_relative_path" },
 
+  // Remove duplicate line
+  { "keys": ["super+k", "super+l", "super+d"], "command": "permute_lines", "args": {"operation": "unique"} },
+
   //Shell Command
   { "keys": ["super+k", "super+s", "super+o"], "command": "shell_command" },
   { "keys": ["super+k", "super+s", "super+r"], "command": "shell_command", "args": { "root_dir": true } },
