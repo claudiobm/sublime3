@@ -5,15 +5,19 @@
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"AdvancedNewFile",
 		"BracketHighlighter",
 		"Clipboard Diff",
 		"Clipboard Manager",
 		"Copy Relative Path",
+		"CSV",
 		"CTags",
+		"Dockerfile Syntax Highlighting",
 		"Evernote",
 		"Git blame",
 		"GitGutter",
+		"Handlebars",
 		"JSON Reindent",
 		"Keymaps",
 		"Markdown Preview",
@@ -36,6 +40,7 @@
 		"Terminal Notifier",
 		"Text Pastry",
 		"Theme - Soda SolarizedDark",
-		"TypeScript"
+		"TypeScript",
+		"WakaTime"
 	]
 }

@@ -34,7 +34,7 @@
 		"tmp/rubycritic"
 	],
 	"font_face": "Monaco",
-	"font_size": 16.0,
+	"font_size": 15.0,
 	"ignored_packages":
 	[
 		"SideBarGit",
