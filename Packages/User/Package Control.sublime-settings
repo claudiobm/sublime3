@@ -7,6 +7,7 @@
 	[
 		"Advanced CSV",
 		"AdvancedNewFile",
+		"Better RSpec",
 		"BracketHighlighter",
 		"Clipboard Diff",
 		"Clipboard Manager",
@@ -19,6 +20,7 @@
 		"GitGutter",
 		"Handlebars",
 		"JSON Reindent",
+		"HTMLBeautify",
 		"Keymaps",
 		"Markdown Preview",
 		"orgmode",
