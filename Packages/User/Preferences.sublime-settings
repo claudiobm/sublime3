@@ -38,6 +38,7 @@
 	"ignored_packages":
 	[
 		"SideBarGit",
+		"Terminal Notifier",
 		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",

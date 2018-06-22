@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Terminal Notifier"
 	],
 	"installed_packages":
 	[
@@ -15,14 +16,12 @@
 		"CSV",
 		"CTags",
 		"Dockerfile Syntax Highlighting",
-		"Evernote",
 		"Git blame",
 		"GitGutter",
 		"Handlebars",
-		"JSON Reindent",
 		"HTMLBeautify",
+		"JSON Reindent",
 		"Keymaps",
-		"Markdown Preview",
 		"orgmode",
 		"Package Control",
 		"PackageResourceViewer",
@@ -39,10 +38,9 @@
 		"SideBarEnhancements",
 		"SideBarGit",
 		"Solarized Color Scheme",
-		"Terminal Notifier",
 		"Text Pastry",
 		"Theme - Soda SolarizedDark",
 		"TypeScript",
-		"WakaTime"
+		"MarkdownPreview"
 	]
 }
