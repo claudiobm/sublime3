@@ -2,6 +2,7 @@
 	"always_show_minimap_viewport": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -34,7 +35,7 @@
 		"tmp/rubycritic"
 	],
 	"font_face": "Monaco",
-	"font_size": 12.0,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"SideBarGit",
@@ -48,6 +49,7 @@
 		120
 	],
 	"scroll_past_end": true,
+	"show_line_endings": true,
 	"tab_size": 2,
 	"theme": "Soda SolarizedDark.sublime-theme",
 	"translate_tabs_to_spaces": true,
